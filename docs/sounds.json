@@ -1,0 +1,57 @@
+[
+  {
+    "id": "anaconda-english",
+    "title": "Anaconda (English)",
+    "sound": "anaconda-english.ogg",
+    "image": "https://i.imgflip.com/65939r.jpg",
+    "category": "Brainrot",
+    "hotkey": "1",
+    "brainrotTag": "NO BUNS?",
+    "description": "My anaconda don't want none unless you got buns, hun!",
+    "tags": ["anaconda", "megamind", "buns", "sigma", "brainrot"]
+  },
+  {
+    "id": "anaconda-bengali",
+    "title": "মোর অ্যানাকোন্ডা (Bangla)",
+    "sound": "anaconda-bengali.ogg",
+    "image": "https://i.imgflip.com/2gnnjh.jpg",
+    "category": "Brainrot",
+    "hotkey": "2",
+    "brainrotTag": "AYO SUS 💀",
+    "description": "মোর অ্যানাকোন্ডা নাহি চাহে কিছু, যদি তোমারও নাহি থাকে পাছু!",
+    "tags": ["anaconda", "bangla", "pachu", "side-eye", "sus"]
+  },
+  {
+    "id": "bijoya",
+    "title": "শুভ বিজয়া (নেশা করবেন না)",
+    "sound": "bijoya.ogg",
+    "image": "https://i.imgflip.com/54hjww.jpg",
+    "category": "Advice",
+    "hotkey": "3",
+    "brainrotTag": "TRADE OFFER ⚠️",
+    "description": "শুভ বিজয়ার শুভেচ্ছা সকলকে... সুস্থ থাকবেন, নেশা করবেন না!",
+    "tags": ["bijoya", "trade-offer", "nesha", "bangla", "chad"]
+  },
+  {
+    "id": "oh-pita",
+    "title": "ওহ পিতা... (Oh Pita)",
+    "sound": "oh-pita.ogg",
+    "image": "https://i.imgflip.com/8d317n.png",
+    "category": "Melodrama",
+    "hotkey": "4",
+    "brainrotTag": "ABSOLUTE CINEMA ✋😭🤚",
+    "description": "ওহ পিতা... dramatic cry and emotional wailing",
+    "tags": ["pita", "cinema", "drama", "wail", "father"]
+  },
+  {
+    "id": "unmad-laughter",
+    "title": "উন্মাদ হাসি (Unmad Laugh)",
+    "sound": "unmad-laughter.ogg",
+    "image": "https://i.imgflip.com/1w7ygt.jpg",
+    "category": "Unhinged",
+    "hotkey": "5",
+    "brainrotTag": "INHALING SCREECH 💀",
+    "description": "Unhinged high-pitched crazed laughter: Hee-hee-hee-hee!",
+    "tags": ["unmad", "laughter", "goblin", "screech", "crazy"]
+  }
+]

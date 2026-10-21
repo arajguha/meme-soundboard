@@ -32,7 +32,7 @@ Vite enables hot module replacement while you work. Stop the server with `Ctrl+C
 
 ## Build and preview
 
-Create a production build in `dist/`:
+Create a production build in `docs/`:
 
 ```sh
 npm run build
@@ -43,6 +43,19 @@ To serve that build locally:
 ```sh
 npm run preview
 ```
+
+## Deploy with GitHub Pages
+
+The Vite build writes the static site to `docs/`, which GitHub Pages can publish directly from the `main` branch.
+
+1. Run `npm run build` and confirm the generated site is in `docs/`.
+2. Commit and push the `docs/` folder along with your source changes to the `main` branch.
+3. In your GitHub repository, open **Settings → Pages**.
+4. Under **Build and deployment**, select **Deploy from a branch**.
+5. Choose **main** as the branch and **/docs** as the folder, then click **Save**.
+6. After GitHub publishes it, open the site URL shown in **Settings → Pages**.
+
+Whenever the app changes, run `npm run build` again and commit and push the updated `docs/` output. Vite uses relative asset paths, so the build works at both user-site and project-site URLs.
 
 ## Add or change sounds
 
