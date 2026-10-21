@@ -11,7 +11,7 @@ import { ConfigModal } from './components/ConfigModal';
 import { GitHubGuideModal } from './components/GitHubGuideModal';
 import { SoundItem, CardViewMode } from './types/sound';
 import { soundEngine } from './utils/audioEngine';
-import { Sparkles, Music2, Keyboard } from 'lucide-react';
+import { Sparkles, Music2 } from 'lucide-react';
 
 export default function App() {
   const [sounds, setSounds] = useState<SoundItem[]>([]);
@@ -202,52 +202,7 @@ export default function App() {
           </div>
         )}
 
-        {/* Minimal Hotkey Cheat Sheet Bar */}
-        <div className="mt-8 mx-auto p-3 rounded-2xl bg-slate-950/70 border border-slate-800/80 flex items-center gap-3 text-xs text-slate-400 justify-center flex-wrap">
-          <div className="flex items-center gap-1.5 text-amber-400 font-mono font-bold">
-            <Keyboard className="w-4 h-4" />
-            <span>Hotkeys:</span>
-          </div>
-          {sounds.map((s) => (
-            <div key={s.id} className="flex items-center gap-1">
-              <span className="px-1.5 py-0.5 rounded bg-slate-800 border border-slate-700 text-slate-200 font-mono text-[11px] font-bold">
-                {s.hotkey}
-              </span>
-              <span className="text-[11px] text-slate-400 truncate max-w-[90px]">{s.title.split(' ')[0]}</span>
-            </div>
-          ))}
-          <span className="text-slate-600">|</span>
-          <span className="text-[11px] text-rose-400 font-mono">Space / Esc: Stop All</span>
-        </div>
       </main>
-
-      {/* Footer */}
-      <footer className="mt-auto border-t border-slate-800/80 bg-slate-950/80 px-4 lg:px-8 py-4 text-xs text-slate-400 z-10">
-        <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-3">
-          <div className="flex items-center gap-2">
-            <span className="font-display text-rose-400">সখা সংগীত</span>
-            <span>· Pure Codebase Static Soundboard</span>
-          </div>
-
-          <div className="flex items-center gap-4 text-[11px]">
-            <button
-              type="button"
-              onClick={() => setIsConfigOpen(true)}
-              className="hover:text-cyan-400 transition-colors cursor-pointer"
-            >
-              Inspect sounds.json
-            </button>
-            <span>•</span>
-            <button
-              type="button"
-              onClick={() => setIsGitHubGuideOpen(true)}
-              className="hover:text-purple-400 transition-colors cursor-pointer"
-            >
-              GitHub Deployment Guide
-            </button>
-          </div>
-        </div>
-      </footer>
 
       {/* Modals */}
       <ConfigModal
