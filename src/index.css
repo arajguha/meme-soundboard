@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    background-color: #0c0f17;
+    color: #f1f5f9;
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+}
+
+.font-display {
+  font-family: 'Bungee', cursive, sans-serif;
+}
+
+.font-accent {
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+/* Custom glow effects for active playing sound cards */
+.playing-glow {
+  box-shadow: 0 0 25px -5px rgba(244, 63, 94, 0.6), 0 0 10px -2px rgba(234, 179, 8, 0.4);
+}
+
+.playing-glow-cyan {
+  box-shadow: 0 0 25px -5px rgba(6, 182, 212, 0.6), 0 0 10px -2px rgba(99, 102, 241, 0.4);
+}
+
+/* Keyframes for equalizer bars */
+@keyframes eqBounce {
+  0%, 100% { height: 18%; }
+  50% { height: 95%; }
+}
+
+.animate-eq-1 { animation: eqBounce 0.4s ease-in-out infinite alternate; }
+.animate-eq-2 { animation: eqBounce 0.6s ease-in-out infinite alternate 0.15s; }
+.animate-eq-3 { animation: eqBounce 0.35s ease-in-out infinite alternate 0.3s; }
+.animate-eq-4 { animation: eqBounce 0.5s ease-in-out infinite alternate 0.2s; }
+.animate-eq-5 { animation: eqBounce 0.45s ease-in-out infinite alternate 0.05s; }
+

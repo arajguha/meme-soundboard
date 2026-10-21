@@ -1,0 +1,6 @@
+{
+  "name": "সখা সংগীত",
+  "description": "Dynamic funny meme soundboard supporting .ogg audio files, custom JSON config, hotkeys, and GitHub Pages static hosting.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
