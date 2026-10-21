@@ -65,3 +65,5 @@ Whenever the app changes, run `npm run build` again and commit and push the upda
 
 The in-app **Inspect sounds.json** panel can edit, import, and export the sound list for the current session. To make changes permanent, update the files in `public/`.
 
+The audio-only Romoni MP4 is listed in `public/sounds.json` and played through the same sound card controls as the other sounds. Keep `public/sounds/Romoni.mp4` at that exact path (including capitalization) so it is included in the production build and works on GitHub Pages.
+

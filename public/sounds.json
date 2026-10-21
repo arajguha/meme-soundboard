@@ -53,5 +53,12 @@
     "brainrotTag": "INHALING SCREECH 💀",
     "description": "Unhinged high-pitched crazed laughter: Hee-hee-hee-hee!",
     "tags": ["unmad", "laughter", "goblin", "screech", "crazy"]
+  },
+  {
+    "id": "romoni",
+    "title": "Romoni",
+    "sound": "Romoni.mp4",
+    "category": "Audio",
+    "tags": ["romoni"]
   }
 ]
